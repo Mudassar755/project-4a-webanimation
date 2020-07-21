@@ -38,5 +38,5 @@ jobs:
       run: npm install -g surge   
     
     - name: deploying on surge
-      run: surge ./build http://web-animation-4a.surge.sh/ --token ${{secrets.4A_WEBANIMATION_TOKEN}}
+      run: surge ./build http://web-animation-4a.surge.sh/ --token ${{secrets.WEBANIMATION_TOKEN}}
       
